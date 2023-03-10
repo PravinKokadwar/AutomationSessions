@@ -1,0 +1,28 @@
+POJO : Plain Old Java Object
+============================
+====Rules====
+
+1)Class must be public.
+
+2)all variable must be private.
+
+3)must have public default constructor
+
+4)can have one parameterized constructor
+
+5)every property/field/variable have public Getter/Setter method
+
+Advantages
+1)It increase readabiltiy and re-usability of the program
+
+2)Easy to write and understand.
+
+>>Getter >> Accessor == update the value of variables
+  the method that is used to retrieve the value of a private instance 
+  variable is known as a getter method. 
+>>setter >> mutator == read the value of variables 
+  The method that is used to set/modify the value of a private instance 
+  variable of a class is known as a setter method
+
+ 
+ 

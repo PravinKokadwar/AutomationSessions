@@ -1,0 +1,8 @@
+
+        byte
+        
+        short
+        
+char >> int >> float
+
+        long >> double 
