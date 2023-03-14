@@ -1,16 +1,5 @@
 package InterfaceDemo;
 
-//Creating interface that has 4 methods  
-interface Human {
-	void walk();// bydefault, public and abstract
-
-	void run();
-
-	void eat();
-
-	void sleep();
-}
-
 //Creating abstract class that provides the implementation of one method of 
 //Human interface  
 abstract class Nature implements Human {

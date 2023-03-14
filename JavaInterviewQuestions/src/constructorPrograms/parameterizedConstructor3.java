@@ -25,7 +25,7 @@ public class parameterizedConstructor3 {
 
 	public static void main(String args[]) {
 
-		parameterizedConstructor3 PC6 = new parameterizedConstructor3(123, "Pravin");
+		parameterizedConstructor3 PC6 = new parameterizedConstructor3(123, "Java");
 		parameterizedConstructor3 PC7 = new parameterizedConstructor3();
 
 		PC7.id = PC6.id;

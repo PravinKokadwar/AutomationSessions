@@ -7,6 +7,9 @@ public class TestConstructor2 {
 	String name;
      
 	// 0 and null values provides by default constructor.
+	//method to display the value of age and name.
+	//JVM creates default constructor and provide 0 and null values. 
+	
 	void display() {
 
 		System.out.println(age + " " + name);

@@ -20,8 +20,8 @@ public class parameterizedConstructor2 {
 
 	public static void main(String args[]) {
 		
-		parameterizedConstructor2 PC4 = new parameterizedConstructor2("Nitin", 2340008);
-		parameterizedConstructor2 PC5 = new parameterizedConstructor2("Prashant", 234556);
+		parameterizedConstructor2 PC4 = new parameterizedConstructor2("Robert", 2340008);
+		parameterizedConstructor2 PC5 = new parameterizedConstructor2("james", 234556);
 		
 		PC4.display();
 		PC5.display();
