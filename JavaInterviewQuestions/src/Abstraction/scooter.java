@@ -23,7 +23,9 @@ class scooter extends Vehicle {
 
 	public static void main(String[] args) {
 
-		Vehicle VE = new car();
+	//	Vehicle VE = new car();
+		
+		Vehicle VE = new scooter();
 
 		// car c= new car();
 		// c.start();

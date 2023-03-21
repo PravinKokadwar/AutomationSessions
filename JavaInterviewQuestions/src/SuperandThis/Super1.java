@@ -1,6 +1,7 @@
 package SuperandThis;
 
-//The “super” keyword is used to refer to an instance variable of an immediate parent class.
+//The “super” keyword is used to refer to an instance variable of an immediate 
+//parent class.
 
 class Parent {
 

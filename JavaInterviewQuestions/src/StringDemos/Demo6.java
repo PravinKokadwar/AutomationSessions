@@ -3,7 +3,7 @@ package StringDemos;
 public class Demo6 {
 
 	public static void main(String args[]) {
-		String s = "India is great";
+		String s = "Java Programming";
 
 		System.out.println(s.subSequence(3, 8)); // it will take count from 3rd position till last position-1.
 

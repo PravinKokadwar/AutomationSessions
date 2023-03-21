@@ -30,6 +30,12 @@ class TestInterface5 {
 	public static void main(String[] args) {
 
 		Human HN = new Behaviour();
+		// Human HN1 = new Human();
+
+		/*
+		 * Behaviour BH = new Behaviour(); BH.eat(); BH.walk(); BH.run(); BH.sleep();
+		 */
+
 		HN.walk();
 		HN.run();
 		HN.eat();
