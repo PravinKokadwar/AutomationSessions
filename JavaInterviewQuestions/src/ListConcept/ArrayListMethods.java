@@ -11,10 +11,10 @@ public class ArrayListMethods {
 
 		ArrayList<String> ar1 = new ArrayList<String>();
 
-		ar1.add("Java");
+		ar1.add("Java"); //0
 		ar1.add("Microprocessor");
 		ar1.add("JavaScript");
-		ar1.add("Python");
+		ar1.add("Python"); //3
 
 		ArrayList<String> ar2 = new ArrayList<String>();
 		ar2.add("English");

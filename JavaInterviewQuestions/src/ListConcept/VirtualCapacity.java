@@ -11,14 +11,14 @@ public class VirtualCapacity {
 
 		ArrayList<Object> arobj = new ArrayList<Object>();
 
-		System.out.println("The physical capacity of ArrayList is" + arobj.size()); // PC
+		System.out.println("The physical capacity of ArrayList is" + " : " + arobj.size()); // PC
 
 		arobj.add(100);
 		arobj.add("Selenium");
 		arobj.add('r');
 		arobj.add(true);
 
-		System.out.println("The physical capacity of ArrayList is" + arobj.size()); // PC
+		System.out.println("The physical capacity of ArrayList is" + " : " + arobj.size()); // PC
 		
 		//How to change the VirtualCapacity of ArrayList
 		//We can check virtualCapacity of ArrayList by using Debugging Mode of program.
@@ -26,7 +26,7 @@ public class VirtualCapacity {
 		ArrayList<Object> arobj1 = new ArrayList<Object>(20);
 		arobj1.add(1000);
 		
-		System.out.println("The VirtualCapacity of ArrayList is" +arobj1.size());
+		System.out.println("The VirtualCapacity of ArrayList is" + " : " +arobj1.size());
 
 	}
 

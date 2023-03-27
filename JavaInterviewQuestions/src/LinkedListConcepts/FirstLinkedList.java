@@ -4,7 +4,7 @@ public class FirstLinkedList {
 
 	Node head;
 
-	//This class created for nodes which contains data + nextPointer
+	// This class created for nodes which contains data + nextPointer
 	class Node {
 
 		int data;
@@ -20,7 +20,7 @@ public class FirstLinkedList {
 
 	public void printLinkedlist() {
 		Node n = head;
-		while (n != null) {  //Loop will continue till last Node points to null
+		while (n != null) { // Loop will continue till last Node points to null
 			System.out.println(n.data);
 			n = n.next;
 
@@ -32,7 +32,7 @@ public class FirstLinkedList {
 
 		FirstLinkedList linkobj = new FirstLinkedList();
 
-		//Mapping of first,second,third node to each other.
+		// Mapping of first,second,third node to each other.
 		Node first = linkobj.new Node(10);
 		linkobj.head = first;
 
